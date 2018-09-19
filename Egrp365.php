@@ -109,7 +109,7 @@ class Egrp365 extends Component
      */
     public function getObjectsByAddress(array $params)
     {
-        $required = ['region', 'city', 'street', 'house'];
+        $required = ['region', 'street', 'house'];
         $this->_checkRequired($required, $params);
         return $this->_send('GET', 'getObjectsByAddress', $params);
     }

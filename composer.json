@@ -1,6 +1,6 @@
 {
     "name": "egrp365/yii2-egrp365-api",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "description": "Клиент API https://egrp365.ru для получения данных из ЕГРН Росреестра.",
     "type": "yii2-extension",
     "license": "MIT",
